@@ -9,8 +9,8 @@ using TimeTracker.Data;
 namespace TimeTracker.Data.Migrations
 {
     [DbContext(typeof(TimeTrackerDbContext))]
-    [Migration("20190927214721_SeedTimeEntries")]
-    partial class SeedTimeEntries
+    [Migration("20240130003834_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
